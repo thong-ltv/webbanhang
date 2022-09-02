@@ -1,0 +1,470 @@
+[09-May-2021 13:39:05 Europe/Berlin] PHP Notice:  Undefined variable: id in F:\xampp\htdocs\Webbanhang\apps\libs\header.php on line 128
+[09-May-2021 13:39:05 Europe/Berlin] PHP Notice:  Undefined index:  in F:\xampp\htdocs\Webbanhang\apps\libs\header.php on line 128
+[09-May-2021 13:39:16 Europe/Berlin] PHP Notice:  Undefined variable: id in F:\xampp\htdocs\Webbanhang\apps\libs\header.php on line 150
+[09-May-2021 13:39:16 Europe/Berlin] PHP Notice:  Undefined index:  in F:\xampp\htdocs\Webbanhang\apps\libs\header.php on line 150
+[25-Apr-2022 04:56:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[25-Apr-2022 05:00:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[25-Apr-2022 05:06:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[27-Apr-2022 03:22:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[27-Apr-2022 03:22:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[27-Apr-2022 08:35:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[27-Apr-2022 08:39:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[27-Apr-2022 08:46:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[27-Apr-2022 08:46:55 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[28-Apr-2022 05:29:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[28-Apr-2022 05:30:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[28-Apr-2022 05:31:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[28-Apr-2022 05:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[03-May-2022 09:46:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[03-May-2022 09:51:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in D:\Xamp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\sanpham.php on line 55
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 12
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 13
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 14
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 15
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 18
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 19
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 25
+[03-May-2022 10:51:21 Europe/Berlin] PHP Warning:  Undefined variable $conn in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:51:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in D:\Xamp\htdocs\webbanhang\apps\libs\header.php:27
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\apps\libs\header.php(27): mysqli_query(NULL, 'SELECT * FROM l...')
+#1 D:\Xamp\htdocs\webbanhang\tintuc.php(7): include_once('D:\\Xamp\\htdocs\\...')
+#2 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 12
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 13
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 14
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 15
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 18
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 19
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 25
+[03-May-2022 10:51:23 Europe/Berlin] PHP Warning:  Undefined variable $conn in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:51:23 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in D:\Xamp\htdocs\webbanhang\apps\libs\header.php:27
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\apps\libs\header.php(27): mysqli_query(NULL, 'SELECT * FROM l...')
+#1 D:\Xamp\htdocs\webbanhang\tintuc.php(7): include_once('D:\\Xamp\\htdocs\\...')
+#2 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 12
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 13
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 14
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 15
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 18
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 19
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 25
+[03-May-2022 10:51:32 Europe/Berlin] PHP Warning:  Undefined variable $conn in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:51:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in D:\Xamp\htdocs\webbanhang\apps\libs\header.php:27
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\apps\libs\header.php(27): mysqli_query(NULL, 'SELECT * FROM l...')
+#1 D:\Xamp\htdocs\webbanhang\tintuc.php(7): include_once('D:\\Xamp\\htdocs\\...')
+#2 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 12
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 13
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 14
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 15
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 18
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 19
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 25
+[03-May-2022 10:52:34 Europe/Berlin] PHP Warning:  Undefined variable $conn in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:52:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in D:\Xamp\htdocs\webbanhang\apps\libs\header.php:27
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\apps\libs\header.php(27): mysqli_query(NULL, 'SELECT * FROM l...')
+#1 D:\Xamp\htdocs\webbanhang\tintuc.php(7): include_once('D:\\Xamp\\htdocs\\...')
+#2 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 12
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 13
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 14
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 15
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 18
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 19
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $base in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 25
+[03-May-2022 10:52:37 Europe/Berlin] PHP Warning:  Undefined variable $conn in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 10:52:37 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in D:\Xamp\htdocs\webbanhang\apps\libs\header.php:27
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\apps\libs\header.php(27): mysqli_query(NULL, 'SELECT * FROM l...')
+#1 D:\Xamp\htdocs\webbanhang\tintuc.php(7): include_once('D:\\Xamp\\htdocs\\...')
+#2 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\apps\libs\header.php on line 27
+[03-May-2022 11:35:56 Europe/Berlin] PHP Warning:  Undefined array key "id_menu" in D:\Xamp\htdocs\webbanhang\sanpham.php on line 36
+[03-May-2022 11:36:24 Europe/Berlin] PHP Warning:  Undefined array key "id_menu" in D:\Xamp\htdocs\webbanhang\sanpham.php on line 36
+[05-May-2022 10:11:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:11:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:14:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:17:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:18:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:18:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:18:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:19:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:20:05 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:20:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:20:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:20:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:20:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:21:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:25:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:25:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:25:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 10:26:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 10:26:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 10:27:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 10:28:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:42:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 10:42:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_row() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 10:43:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 10:44:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 10:44:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 11:16:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 11:16:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:16:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in D:\Xamp\htdocs\webbanhang\search.php:50
+Stack trace:
+#0 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 50
+[05-May-2022 11:17:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:17:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:18:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:19:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:21:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:32:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:32:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:33:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[05-May-2022 11:33:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[22-Jun-2022 14:51:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in D:\Xamp\htdocs\webbanhang\search.php:47
+Stack trace:
+#0 D:\Xamp\htdocs\webbanhang\search.php(47): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in D:\Xamp\htdocs\webbanhang\search.php on line 47
+[23-Jun-2022 08:30:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\index.php on line 109
+[23-Jun-2022 08:30:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\index.php on line 109
+[23-Jun-2022 08:31:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\index.php on line 109
+[23-Jun-2022 08:36:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\index.php on line 109
+[23-Jun-2022 08:37:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\index.php on line 109
+[23-Jun-2022 09:03:05 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in C:\xampp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\sanpham.php on line 55
+[23-Jun-2022 09:06:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in C:\xampp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\sanpham.php on line 55
+[23-Jun-2022 09:06:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 1 in C:\xampp\htdocs\webbanhang\sanpham.php:55
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\sanpham.php(55): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\sanpham.php on line 55
+[23-Jun-2022 17:07:47 Europe/Berlin] PHP Warning:  Undefined array key "fullname" in C:\xampp\htdocs\webbanhang\apps\libs\header.php on line 114
+[23-Jun-2022 17:08:04 Europe/Berlin] PHP Warning:  Undefined array key "fullname" in C:\xampp\htdocs\webbanhang\apps\libs\header.php on line 114
+[24-Jun-2022 03:52:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.0.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 03:55:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.' OFFSET 1' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 03:55:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.' OFFSET 1' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 03:55:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.' OFFSET 1' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 03:55:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.' OFFSET 1' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 03:55:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.' OFFSET 1' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 03:55:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.' OFFSET 1' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 03:55:55 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.' OFFSET 1' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:04:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:04:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:04:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:04:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:04:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:05:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:05:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:05:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:05:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:05:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:05:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''.4.'' at line 1 in C:\xampp\htdocs\webbanhang\index.php:71
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\index.php(71): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 71
+[24-Jun-2022 04:21:30 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\webbanhang\apps\config.php on line 12
+[24-Jun-2022 04:22:30 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\webbanhang\apps\config.php on line 12
+[24-Jun-2022 04:22:45 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\webbanhang\apps\config.php on line 12
+[24-Jun-2022 04:22:47 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\webbanhang\apps\config.php on line 12
+[24-Jun-2022 05:21:46 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\webbanhang\index.php on line 124
+[24-Jun-2022 05:21:46 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\webbanhang\index.php on line 124
+[24-Jun-2022 05:21:46 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\webbanhang\index.php on line 209
+[24-Jun-2022 05:21:46 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\webbanhang\index.php on line 292
+[24-Jun-2022 05:21:46 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\webbanhang\index.php on line 292
+[24-Jun-2022 06:44:42 Europe/Berlin] PHP Warning:  Undefined variable $iteams in C:\xampp\htdocs\webbanhang\checkout.php on line 27
+[24-Jun-2022 06:44:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 27
+[24-Jun-2022 06:44:42 Europe/Berlin] PHP Warning:  Undefined variable $iteams in C:\xampp\htdocs\webbanhang\checkout.php on line 28
+[24-Jun-2022 06:44:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 28
+[24-Jun-2022 06:45:35 Europe/Berlin] PHP Warning:  Undefined variable $iteams in C:\xampp\htdocs\webbanhang\checkout.php on line 27
+[24-Jun-2022 06:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 27
+[24-Jun-2022 06:45:35 Europe/Berlin] PHP Warning:  Undefined variable $iteams in C:\xampp\htdocs\webbanhang\checkout.php on line 28
+[24-Jun-2022 06:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 28
