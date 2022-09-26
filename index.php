@@ -33,19 +33,21 @@ if (isset($_GET['current_page_vi'])) {
 ?>
 <div class="container white">
 <div id ="wrapper">
-        <!-- banner --><div class="banner">
-            <div class="owl-carousel owl-theme">
+    <!-- banner -->
+    <div class="banner">
+        <div class="owl-carousel owl-theme">
 
-                <?php
-                $banner_query = mysqli_query($conn,"SELECT * FROM banner ORDER BY id_banner ASC limit 5");
-                while ($banner_items = mysqli_fetch_array($banner_query)){
-                    echo '<div class="owl-carousel owl-theme">';
-                    echo ' <div class="item"><img src="images/'.$banner_items['link_banner'].'" alt="'.$banner_items['name_banner'].'"></div>';
-                    echo '</div>';
-                }
-                ?>
-            </div>
-        </div><!--end banner-->
+            <?php
+            $banner_query = mysqli_query($conn,"SELECT * FROM banner ORDER BY id_banner ASC limit 5");
+            while ($banner_items = mysqli_fetch_array($banner_query)){
+                echo '<div class="owl-carousel owl-theme">';
+                echo ' <div class="item"><img src="images/'.$banner_items['link_banner'].'" alt="'.$banner_items['name_banner'].'"></div>';
+                echo '</div>';
+            }
+            ?>
+                
+        </div>
+    </div><!--end banner-->
 <!--body -->
 <!--Tui xach tay-->
         <div class="sliderows">
@@ -100,18 +102,29 @@ if (isset($_GET['current_page_vi'])) {
                                 <div class="row_product_h">
                                     <?php
                                     echo"
+                    <form action='manageCart.php' method='POST'>
+                    <input type='hidden' name='id_sanpham' value='$tuixach_items[id_sanpham]'></input>
+
 					<a href='chitiet.php?id=".$tuixach_items['id_sanpham']."' class='images'>
 						<img alt='".$tuixach_items['tensp']."' src='images/".$tuixach_items['image_sp']."'>
 					</a>
+                    <input type='hidden' name='images' value='$tuixach_items[image_sp]'></input>
+
 					<h2>
 					<a title='".$tuixach_items['tensp']."' href='chitiet.php?id=".$tuixach_items['id_sanpham']."' style='text-align: center;display: inherit;font: 16px/20px \"Roboto\",Helvetica,Arial,sans-senif;'>".$tuixach_items['tensp']."</a>
 					</h2>
+                    <input type='hidden' name='title' value='$tuixach_items[tensp]'></input>
+
 					<div class='price' style='text-align: center;'>".number_format($tuixach_items['price'])." VNĐ</div><!--end price-->
+                    <input type='hidden' name='price' value='$tuixach_items[price]'></input>
+
 					<div class='ratings'>
 						<div class='rating-box'></div><!--end ratingbox-->
 					</div><!--end ratings-->
-					<a href='add-cart.php?id=".$tuixach_items['id_sanpham']."'><div class='add_cart''><i></i>THÊM VÀO GIỎ </div></a>
-					";
+                    <input type='submit' value='THEM VAO GIO' class='add_cart'name='Add_To_Cart' />
+                    </input>
+					</form>
+                    ";
                                     ?>
                                 </div><!--end row_product_h-->
                             </div><!--end owl-item--->
@@ -186,18 +199,28 @@ if (isset($_GET['current_page_vi'])) {
                                 <div class="row_product_h">
                                     <?php
                                     echo"
+                    <form action='manageCart.php' method='POST'>
+                    <input type='hidden' name='id_sanpham' value='$balobalo_items[id_sanpham]'></input>
+
 					<a href='chitiet.php?id=".$balobalo_items['id_sanpham']."' class='images'>
 						<img alt='".$balobalo_items['tensp']."' src='images/".$balobalo_items['image_sp']."'>
 					</a>
+                    <input type='hidden' name='images' value='$balobalo_items[image_sp]'></input>
+
 					<h2>
 					<a title='".$balobalo_items['tensp']."' href='chitiet.php?id=".$balobalo_items['id_sanpham']."' style='text-align: center;display: inherit;font: 16px/20px \"Roboto\",Helvetica,Arial,sans-senif;'>".$balobalo_items['tensp']."</a>
 					</h2>
+                    <input type='hidden' name='title' value='$balobalo_items[tensp]'></input>
+
 					<div class='price' style='text-align: center;'>".number_format($balobalo_items['price'])." VNĐ</div><!--end price-->
-					<div class='ratings'>
+					<input type='hidden' name='price' value='$balobalo_items[price]'></input>
+
+                    <div class='ratings'>
 						<div class='rating-box'></div><!--end ratingbox-->
 					</div><!--end ratings-->
-					<a href='add-cart.php?id=".$balobalo_items['id_sanpham']."'><div class='add_cart''><i></i>THÊM VÀO GIỎ </div></a>
-					";
+					<input type='submit' value='THEM VAO GIO' class='add_cart' name='Add_To_Cart' / >
+                    </form>
+                    ";
                                     ?>
                                 </div><!--end row_product_h-->
                             </div><!--end owl-item--->
@@ -270,18 +293,28 @@ if (isset($_GET['current_page_vi'])) {
                             <div class="row_product_h">
                                 <?php
                                 echo"
+                    <form action='manageCart.php' method='POST'>
+                    <input type='hidden' name='id_sanpham' value='$balo_items[id_sanpham]'></input>
+
 					<a href='chitiet.php?id=".$balo_items['id_sanpham']."' class='images'>
 						<img alt='".$balo_items['tensp']."' src='images/".$balo_items['image_sp']."'>
 					</a>
+                    <input type='hidden' name='images' value='$balo_items[image_sp]'></input>
+
 					<h2>
 					<a title='".$balo_items['tensp']."' href='chitiet.php?id=".$balo_items['id_sanpham']."' style='text-align: center;display: inherit;font: 16px/20px \"Roboto\",Helvetica,Arial,sans-senif;'>".$balo_items['tensp']."</a>
 					</h2>
+                    <input type='hidden' name='title' value='$balo_items[tensp]'></input>
+
 					<div class='price' style='text-align: center;'>".number_format($balo_items['price'])." VNĐ</div><!--end price-->
-					<div class='ratings'>
+					<input type='hidden' name='price' value='$balo_items[price]'></input>
+
+                    <div class='ratings'>
 						<div class='rating-box'></div><!--end ratingbox-->
 					</div><!--end ratings-->
-					<a href='add-cart.php?id=".$balo_items['id_sanpham']."'><div class='add_cart''><i></i>THÊM VÀO GIỎ</div></a>
-					";
+					<input type='submit' value='THEM VAO GIO' class='add_cart' name='Add_To_Cart' />
+					</form>
+                    ";
                                 ?>
                             </div><!--end row_product_h-->
                         </div><!--end owl-item--->
@@ -295,7 +328,7 @@ if (isset($_GET['current_page_vi'])) {
                                 <?php if($current_page_vi != $i){ ?>
                                     <li style="float: left; padding: 5px 13px; margin: 5px; background: burlywood; display: block;"><a href="index.php?current_page_vi=<?php echo $i ?>" style="color: #000; text-align:center; text-decoration: none;"><?php echo $i ?></a></li>
                                 <?php } else { ?>
-                                    <strong><li style="float: left; padding: 5px 13px; margin: 5px; background: burlywood; display: block;"><a href="index.php?current_page_vi=<?php echo $i ?>" style="color: #000; text-align:center; text-decoration: none;"><?php echo $i ?></a></li></strong>
+                                    <strong><li style="float: left; padding: 5px 13px; margin: 5px; background: red; display: block;"><a href="index.php?current_page_vi=<?php echo $i ?>" style="color: #000; text-align:center; text-decoration: none;"><?php echo $i ?></a></li></strong>
                                 <?php } ?>
                             <?php } ?>
 

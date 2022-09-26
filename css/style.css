@@ -1771,6 +1771,12 @@ h2.uppercaseh2 {
     font-size: 14px;
 }
 
+.cart_oder_1 ul li.tt_cart_li {
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+}
+
 .cart_ul tt {
     width: 100px;
     text-align: center;

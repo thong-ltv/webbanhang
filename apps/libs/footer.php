@@ -130,7 +130,6 @@
         -webkit-transition: box-shadow .2s ease;
         background-size: 80%;
         transition: all .2s ease-in-out
-        -
     }
     .ctrlq.fb-button:focus, .ctrlq.fb-button:hover{
         transform: scale(1.1);

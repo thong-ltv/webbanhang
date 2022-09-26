@@ -17,3 +17,65 @@ Import data trong bằng webbanhang.sql
 Link admin: \admin\
 
 Tài khoản: admin/admin
+
+<a href='add-cart.php?id=".$tuixach_items['id_sanpham']."'><div class='add_cart''><i></i>THÊM VÀO GIỎ </div></a>
+<a href='add-cart.php?id=".$balobalo_items['id_sanpham']."'><div class='add_cart''><i></i>THÊM VÀO GIỎ </div></a>
+<a href='add-cart.php?id=".$balo_items['id_sanpham']."'><div class='add_cart''><i></i>THÊM VÀO GIỎ</div></a>
+
+<form method="post">
+                            <div class="cart_oder">
+                                <ul class="top_cart">
+                                    <li class="sp">SẢN PHẨM </li>
+                                    <li class="dg">ĐƠN GIÁ</li>
+                                    <li class="sl">SL</li>
+                                    <li class="tt">THÀNH TIỀN</li>
+                                </ul>
+                                <?php
+                                if (isset($_SESSION['cart'])) {
+                                    if ($_SESSION['cart'] != NULL) {
+                                        foreach ($_SESSION['cart'] as $id => $prd) {
+                                            $arr_id[] = $id;
+                                        }
+                                        $str_id = implode(',', $arr_id);
+                                        $item_query = "SELECT * FROM sanpham WHERE id_sanpham IN ($str_id) ORDER BY id_sanpham ASC";
+                                        $item_result = mysqli_query($conn, $item_query) or die ('Cannot select table!');
+                                        while ($rows = mysqli_fetch_array($item_result)) {
+                                            ?>
+                                            <ul class="bottom_cart">
+                                                <li class="sp">
+                                                    <img src="images/<?php echo $rows['image_sp']; ?>" class="cartImg">
+                                                    <b class="Cart_title_pro"><?php echo $rows['tensp']; ?></b>
+                                                    <div class="delete_Cart"><a
+                                                                href="<?php echo $base?>/del-product.php?id=<?php echo $rows['id_sanpham']; ?>"
+                                                                class="del_sp">Xóa</a></div>
+
+                                                </li>
+                                                <li class="dg"><?php echo number_format($rows['price']); ?> VNĐ</li>
+                                                <li class="sl"><input type="text"
+                                                                      name="num[<?php echo $rows['id_sanpham']; ?>]"
+                                                                      value="<?php echo $_SESSION['cart'][$rows['id_sanpham']]; ?>"
+                                                                      size="3" class="capnhatCartTxt"/></li>
+                                                <li class="tt"><?php echo number_format($rows['price'] * $_SESSION['cart'][$rows['id_sanpham']]); ?> VNĐ
+                                                </li>
+                                            </ul>
+
+                                            <?php
+                                        }
+                                    } else {
+                                        echo "<p><div class='no-product'><p>CHƯA CÓ SẢN PHẨM TRONG GIỎ!</p></div>";
+                                    }
+                                }
+                                else{
+                                $_SESSION['cart'] = array();}
+                                ?>
+                                <div class="go_shopping">
+                                    <input type="submit" name="update_cart" value="Cập nhật giỏ hàng" class="cap_nhat_cart"/>
+                                    <a href="<?php echo $base?>/cart.php" class="goa_shopping">GIỎ HÀNG</a></div>
+                            </div><!--end cart_order-->
+                        </form>
+
+
+                        $str_id = implode(',',$arr_id);
+            $item_query = "SELECT * FROM  sanpham WHERE id_sanpham IN ($str_id) ORDER BY id_sanpham ASC";
+            $item_result = mysqli_query($conn,$item_query) or die ('Cannot select table!');
+            while ($rows = mysqli_fetch_array($item_result))

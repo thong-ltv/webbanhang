@@ -11,7 +11,8 @@ if(isset($_SESSION['username'])){
             echo "Bạn chưa chọn sản phẩm";
         }
         $_SESSION['cart'][$id] = $prd;
-        header('location: ' . $_SERVER['HTTP_REFERER']); //Trở về trang trước
+        // header('location: ' . $_SERVER['HTTP_REFERER']); //Trở về trang trước
+        header("location: cart.php?id=$id");
     }
    
 } else {

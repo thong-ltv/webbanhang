@@ -1,5 +1,10 @@
 <?php
-$base = str_replace($_SERVER['DOCUMENT_ROOT'],'',str_replace('\\','/',dirname(__FILE__,2)));
+$base = str_replace($_SERVER['DOCUMENT_ROOT'],'',str_replace('\\','/',dirname(__FILE__,2))); //   /webbanhang
+/**
+ * $_SERVER['DOCUMENT_ROOT']: file:///C:/xampp/htdocs/: đường dẫn thư mục gốc C:/xampp/htdocs
+ * dirname(__FILE__): trả về file:///C:/xampp/htdocs/webbanhang/apps/libs
+ * dirname(__FILE__, 2): trả về file:///C:/xampp/htdocs/webbanhang/  :C:\xampp\htdocs\webbanhang
+ */
 $host = 'localhost';
 $username = 'root';
 $password = '';

@@ -468,3 +468,278 @@ Stack trace:
 [24-Jun-2022 06:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 27
 [24-Jun-2022 06:45:35 Europe/Berlin] PHP Warning:  Undefined variable $iteams in C:\xampp\htdocs\webbanhang\checkout.php on line 28
 [24-Jun-2022 06:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 28
+[02-Sep-2022 10:46:25 Europe/Berlin] Hello, errors!
+[02-Sep-2022 12:03:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in C:\xampp\htdocs\webbanhang\index.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 40
+[02-Sep-2022 15:34:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in C:\xampp\htdocs\webbanhang\index.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 40
+[02-Sep-2022 15:34:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in C:\xampp\htdocs\webbanhang\index.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\webbanhang\index.php on line 40
+[02-Sep-2022 16:06:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:51
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(51): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 51
+[02-Sep-2022 16:06:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:51
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(51): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 51
+[02-Sep-2022 16:07:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:51
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(51): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 51
+[02-Sep-2022 16:15:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:51
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(51): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 51
+[02-Sep-2022 16:17:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:52
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(52): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 52
+[02-Sep-2022 16:18:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:52
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(52): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 52
+[02-Sep-2022 16:20:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:53
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(53): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 53
+[02-Sep-2022 16:25:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:53
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(53): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 53
+[02-Sep-2022 16:34:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:51
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(51): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 51
+[02-Sep-2022 16:39:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-4, 4' at line 1 in C:\xampp\htdocs\webbanhang\search.php:51
+Stack trace:
+#0 C:\xampp\htdocs\webbanhang\search.php(51): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webbanhang\search.php on line 51
+[03-Sep-2022 08:44:46 Europe/Berlin] PHP Warning:  Undefined variable $result1 in C:\xampp\htdocs\webbanhang\search.php on line 59
+[03-Sep-2022 08:46:20 Europe/Berlin] PHP Warning:  Undefined variable $result1 in C:\xampp\htdocs\webbanhang\search.php on line 59
+[03-Sep-2022 09:38:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 88
+[03-Sep-2022 09:38:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 89
+[03-Sep-2022 09:38:58 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 89
+[03-Sep-2022 09:40:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 92
+[03-Sep-2022 09:40:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 93
+[03-Sep-2022 09:40:00 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 93
+[03-Sep-2022 09:42:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 94
+[03-Sep-2022 09:42:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:42:32 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:43:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 94
+[03-Sep-2022 09:43:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:43:21 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:44:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 98
+[03-Sep-2022 09:44:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:44:58 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:45:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 98
+[03-Sep-2022 09:45:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:45:08 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:45:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 98
+[03-Sep-2022 09:45:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:45:18 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:46:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 98
+[03-Sep-2022 09:46:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:46:17 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:47:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 98
+[03-Sep-2022 09:47:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:47:35 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 99
+[03-Sep-2022 09:49:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 96
+[03-Sep-2022 09:49:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 97
+[03-Sep-2022 09:49:14 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 97
+[03-Sep-2022 09:49:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 94
+[03-Sep-2022 09:49:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:49:36 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:49:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 94
+[03-Sep-2022 09:49:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:49:47 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:50:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 94
+[03-Sep-2022 09:50:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:50:45 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:51:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:52:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:52:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 95
+[03-Sep-2022 09:54:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 97
+[20-Sep-2022 16:40:27 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:40:27 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:40:27 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:46:10 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:46:10 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:46:10 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:46:13 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:46:13 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:46:13 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:45 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:45 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:45 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:46 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:46 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:46 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:47 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:47 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:47 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:47 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:47 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:47:47 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 90
+[20-Sep-2022 16:55:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\webbanhang\cart.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\webbanhang\cart.php on line 37
+[20-Sep-2022 16:55:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\webbanhang\cart.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\webbanhang\cart.php on line 37
+[20-Sep-2022 16:55:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\webbanhang\cart.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\webbanhang\cart.php on line 37
+[20-Sep-2022 17:01:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\webbanhang\cart.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\webbanhang\cart.php on line 37
+[20-Sep-2022 17:03:37 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 91
+[20-Sep-2022 17:03:37 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 91
+[20-Sep-2022 17:03:37 Europe/Berlin] PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\webbanhang\cart.php on line 91
+[22-Sep-2022 03:26:32 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\apps\libs\header.php on line 13
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 03:58:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\cart.php on line 64
+[22-Sep-2022 15:27:35 Europe/Berlin] PHP Warning:  Undefined variable $pr in C:\xampp\htdocs\webbanhang\apps\libs\header.php on line 170
+[22-Sep-2022 15:42:42 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\apps\libs\header.php on line 170
+[22-Sep-2022 15:42:42 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\apps\libs\header.php on line 170
+[22-Sep-2022 15:44:43 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 20
+[22-Sep-2022 15:44:43 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 47
+[22-Sep-2022 15:44:43 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 47
+[22-Sep-2022 15:49:59 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 20
+[22-Sep-2022 15:49:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\webbanhang\apps\libs\header.php:98) in C:\xampp\htdocs\webbanhang\cart.php on line 36
+[22-Sep-2022 15:49:59 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 15:49:59 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 16:26:10 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 20
+[22-Sep-2022 16:26:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\webbanhang\apps\libs\header.php:98) in C:\xampp\htdocs\webbanhang\cart.php on line 36
+[22-Sep-2022 16:26:10 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 16:26:10 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 16:26:12 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 20
+[22-Sep-2022 16:26:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\webbanhang\apps\libs\header.php:98) in C:\xampp\htdocs\webbanhang\cart.php on line 36
+[22-Sep-2022 16:26:12 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 16:26:12 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 16:26:16 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 20
+[22-Sep-2022 16:26:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\webbanhang\apps\libs\header.php:98) in C:\xampp\htdocs\webbanhang\cart.php on line 36
+[22-Sep-2022 16:26:16 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 16:26:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 53
+[22-Sep-2022 16:26:43 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 20
+[22-Sep-2022 16:26:43 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\webbanhang\apps\libs\header.php:98) in C:\xampp\htdocs\webbanhang\cart.php on line 36
+[22-Sep-2022 16:28:04 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 48
+[22-Sep-2022 16:28:04 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 48
+[22-Sep-2022 16:29:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\webbanhang\apps\libs\header.php:98) in C:\xampp\htdocs\webbanhang\cart.php on line 22
+[22-Sep-2022 16:29:16 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 51
+[22-Sep-2022 16:29:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 51
+[22-Sep-2022 16:30:03 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 16:30:03 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 16:30:11 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 16:30:11 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 16:30:25 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 16:30:25 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 16:30:35 Europe/Berlin] PHP Warning:  Undefined array key "cart" in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 16:30:35 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\webbanhang\cart.php on line 54
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $sum_all in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 72
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 72
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 72
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $sum_sp in C:\xampp\htdocs\webbanhang\checkout.php on line 72
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 71
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 72
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 72
+[22-Sep-2022 17:09:42 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 72
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $sum_all in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 98
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 98
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 98
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $sum_sp in C:\xampp\htdocs\webbanhang\checkout.php on line 98
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 97
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 98
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 98
+[22-Sep-2022 17:21:19 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 98
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 83
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 83
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 83
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 83
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 83
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 86
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 86
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 86
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 86
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 86
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 87
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 87
+[23-Sep-2022 03:38:06 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 87
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:39:58 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:40:16 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:41:03 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 91
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Undefined variable $rows in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\webbanhang\checkout.php on line 92
+[23-Sep-2022 03:41:13 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\webbanhang\checkout.php on line 92

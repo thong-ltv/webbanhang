@@ -1,10 +1,13 @@
+<!-- cấu hình cho việc thông báo lỗi, khi có lỗi thì đưa vào file php.error.log -->
 <?php
+
+
 ini_set('display_errors', 1);
 ini_set('log_errors', 'on');
 ini_set('error_log', 'php.error.log');
+// error_log( "Hello, errors!" );
 // so san pham da add vao cart
-$prd = 0;
-if(!empty($_SESSION['cart'])) $prd = count($_SESSION['cart']);
+
 ?>
 <head>
     <title>BelleMode</title>
@@ -17,6 +20,7 @@ if(!empty($_SESSION['cart'])) $prd = count($_SESSION['cart']);
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&amp;subset=vietnamese">
     <link rel="stylesheet" href="<?php echo $base; ?>/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo $base; ?>/css/owl.theme.default.min.css">
+    
 </head>
 <style>
 .ptittle {
@@ -24,14 +28,19 @@ if(!empty($_SESSION['cart'])) $prd = count($_SESSION['cart']);
     font-size: 15px;
 }
 
-.pdetail {
+/* .pdetail {
     color: #ffffff;
     float: left;
     font-family: "Roboto Condensed", "Roboto", Helvetica, Arial, sans-senif;
     font-size: 18px;
     font-weight: 300;
     margin-right: 10px;
-}
+} */
+.hotline a[href^="tel:"]:before {
+        content: "\260e";
+        margin-right: 10px;
+      }
+
 </style>
 <div id ="header">
     <div class ="topbar">
@@ -40,7 +49,7 @@ if(!empty($_SESSION['cart'])) $prd = count($_SESSION['cart']);
                 <a href="<?php echo $base ?>">
                     <?php
                     $logo_query = mysqli_query($conn,"SELECT * FROM logo ORDER BY  id_logo DESC limit 1");
-                    while($logo_items = mysqli_fetch_array($logo_query))
+                    $logo_items = mysqli_fetch_array($logo_query);
                     {
                         echo '<img src="/webbanhang'.$logo_items['image_logo'].'" alt="'.$logo_items['name_logo'].'" tittle="'.$logo_items['name_logo'].'"/>';
                     }
@@ -49,15 +58,16 @@ if(!empty($_SESSION['cart'])) $prd = count($_SESSION['cart']);
             </div><!--end logo-->
             <div class="search">
                 <form class="searchform" action="<?php echo $base ?>/search.php" method="get">
-                 <input class="s" placeholder="Tìm kiếm …" type="text" name="s" width="300px" />
-                  <button class="searchsubmit" type="submit">
+                    <input class="s" placeholder="Tìm kiếm …" type="text" name="s" width="300px" />
+                    <button class="searchsubmit" type="submit">
                 </form>
             </div><!-----end search---->
            
 
             <div class="hotline">
                 <div class="ptittle">HOTLINE:</div><!--ptille-->
-                <div class="pdetail"> &nbsp 0977113657</div><!--pdetail-->
+                <!-- <div class="pdetail"> &nbsp 0977113657</div>pdetail -->
+                <div class="pdetail"> <a href="tel:+0383785124">0383785124</a></div><!--pdetail-->
                 
             </div>
             <!-- Đăng nhập -->
@@ -93,12 +103,15 @@ if(!empty($_SESSION['cart'])) $prd = count($_SESSION['cart']);
                     echo "</ul></div>";
                 }
                 ?>
+
+                <!-- Phan quyen dang nhap -->
                 <?php
                 if (isset($_SESSION['username'])){
 				$sql_query = mysqli_query($conn, "select * from user where username='".$_SESSION['username']."'");
 				$sql_result = mysqli_fetch_array($sql_query);
                 $level = $sql_result['level'];
-                    if ($level == '3'){
+                 
+                if ($level == '3'){
                         echo"<div class='user1'>
                         <div class='header_login'>
                         <a href=''>Xin chào: ".$_SESSION['username']. "</a>
@@ -144,79 +157,46 @@ if(!empty($_SESSION['cart'])) $prd = count($_SESSION['cart']);
                 </div>';
                 }
                 ?>
-                <div class="cart_div">
+                <!-- Ket thuc phan quyen dang nhap -->
+
+                <!-- <div class="cart_div"> -->
+                <div>
                     <a href="<?php echo $base?>/cart.php" class="cart_top">
-                        <span class="count"><?php echo $prd; ?></span><!--end count-->
+                        <span class="count"><?php 
+
+                            $prd = 0;
+
+                            if(isset($_SESSION['cart']))
+                            {
+                                foreach($_SESSION['cart'] as $key => $value )
+                                {
+                                    $prd += $value['quantity'];
+                                }
+                            }
+                            
+                            echo $prd; 
+                        
+                        ?></span><!--end count-->
                         <span class="tit">Giỏ hàng</span><!--end tit-->
                     </a>
                     <div class="quick_cart">
                         <?php //cap nhat lai gia khi nhap vao so luong
-                        if(isset($_POST['update_cart']))
-                        {
-                            foreach($_SESSION['cart'] as $id => $prd)//prd la gia tri nhap vao.moi id tuong ung voi so luong nhap vao
-                            {
-                                if(($prd == 0) and (is_numeric($prd)))//nhap vao =0 thi xoa san pham do di
-                                {
-                                    unset($_SESSION['cart'][$id]);
-                                }
-                                elseif(($prd > 0) and (is_numeric($prd)))// so luong >0  thi tiep tuc tinh
-                                {
-                                    $_SESSION['cart'][$id] = $prd;
-                                }
-                            }
-                        }
+                        // if(isset($_POST['update_cart']))
+                        // {
+                        //     foreach($_SESSION['cart'] as $id => $prd)//prd la gia tri nhap vao.moi id tuong ung voi so luong nhap vao
+                        //     {
+                        //         if(($prd == 0) and (is_numeric($prd)))//nhap vao =0 thi xoa san pham do di
+                        //         {
+                        //             unset($_SESSION['cart'][$id]);
+                        //         }
+                        //         elseif(($prd > 0) and (is_numeric($prd)))// so luong >0  thi tiep tuc tinh
+                        //         {
+                        //             $_SESSION['cart'][$id] = $prd;
+                        //         }
+                        //     }
+                        // }
                         ?>
-                        <form method="post">
-                            <div class="cart_oder">
-                                <ul class="top_cart">
-                                    <li class="sp">SẢN PHẨM </li>
-                                    <li class="dg">ĐƠN GIÁ</li>
-                                    <li class="sl">SL</li>
-                                    <li class="tt">THÀNH TIỀN</li>
-                                </ul>
-                                <?php
-                                if (isset($_SESSION['cart'])) {
-                                    if ($_SESSION['cart'] != NULL) {
-                                        foreach ($_SESSION['cart'] as $id => $prd) {
-                                            $arr_id[] = $id;
-                                        }
-                                        $str_id = implode(',', $arr_id);
-                                        $item_query = "SELECT * FROM sanpham WHERE id_sanpham IN ($str_id) ORDER BY id_sanpham ASC";
-                                        $item_result = mysqli_query($conn, $item_query) or die ('Cannot select table!');
-                                        while ($rows = mysqli_fetch_array($item_result)) {
-                                            ?>
-                                            <ul class="bottom_cart">
-                                                <li class="sp">
-                                                    <img src="images/<?php echo $rows['image_sp']; ?>" class="cartImg">
-                                                    <b class="Cart_title_pro"><?php echo $rows['tensp']; ?></b>
-                                                    <div class="delete_Cart"><a
-                                                                href="<?php echo $base?>/del-product.php?id=<?php echo $rows['id_sanpham']; ?>"
-                                                                class="del_sp">Xóa</a></div>
-
-                                                </li>
-                                                <li class="dg"><?php echo number_format($rows['price']); ?> VNĐ</li>
-                                                <li class="sl"><input type="text"
-                                                                      name="num[<?php echo $rows['id_sanpham']; ?>]"
-                                                                      value="<?php echo $_SESSION['cart'][$rows['id_sanpham']]; ?>"
-                                                                      size="3" class="capnhatCartTxt"/></li>
-                                                <li class="tt"><?php echo number_format($rows['price'] * $_SESSION['cart'][$rows['id_sanpham']]); ?> VNĐ
-                                                </li>
-                                            </ul>
-
-                                            <?php
-                                        }
-                                    } else {
-                                        echo "<p><div class='no-product'><p>CHƯA CÓ SẢN PHẨM TRONG GIỎ!</p></div>";
-                                    }
-                                }
-                                else{
-                                $_SESSION['cart'] = array();}
-                                ?>
-                                <div class="go_shopping">
-                                    <input type="submit" name="update_cart" value="Cập nhật giỏ hàng" class="cap_nhat_cart"/>
-                                    <a href="<?php echo $base?>/cart.php" class="goa_shopping">GIỎ HÀNG</a></div>
-                            </div><!--end cart_order-->
-                        </form>
+                        
                     </div><!--End Quick-->
                 </div><!--end cart_div-->
 
